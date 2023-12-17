@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan by Fakhri</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="mx-auto overflow-x-hidden w-96">
+    <header class="w-96">
+        <div class="relative h-80" data-aos="zoom-in" data-aos-duration="3000">
+            <img src="./assets/assets1.png" alt="assets" class="absolute top-0">
+            <img src="./assets/foto1.png" alt="foto" class="absolute z-10 mx-auto -translate-x-1/2 left-1/2">
+            <img src="./assets/assets2.png" alt="assets" class="absolute top-0 right-0">
+        </div>
+    </header>
+    <section>
+        <div class="px-4 py-8" data-aos="zoom-in" data-aos-duration="3000">
+            <h2 class="mt-2 text-4xl font-semibold tracking-widest text-center font-pf text-emas">ARUM & ALDI</h2>
+            <h2 class="mt-8 text-xl text-center font-serrat">
+                SEPT |
+                <span class="text-5xl text-emas">23</span>
+                | 2024
+            </h2>
+            <p class="mt-12 text-center">at 10:30 WIB</p>
+            <p class="text-center">at Royal Ambarrukmo Yogyakarta</p>
+            <p class="text-center">Jl. Laksda Adisucipto No.81,</p>
+            <p class="text-center">Yogyakarta</p>
+        </div>
+    </section>
+    <section class="py-6 w-96">
+        <div class="flex justify-around px-4 py-8" data-aos="zoom-in" data-aos-duration="3000">
+            <div id="days"
+                class="flex flex-col items-center justify-center w-[67px] h-[47px] rounded-md bg-button drop-shadow-lg">
+                <p class="text-base text-center text-white font-serrat">
+                    <span id="days-number"></span>
+                </p>
+                <p class="text-base text-center text-white font-serrat">Hari</p>
+            </div>
+            <div id="hours"
+                class="flex flex-col items-center justify-center w-[67px] h-[47px] rounded-md bg-button drop-shadow-lg">
+                <p class="text-base text-white font-serrat">
+                    <span id="hours-number"></span>
+                </p>
+                <p class="text-base text-center text-white font-serrat">Jam</p>
+            </div>
+            <div id="minutes"
+                class="flex flex-col items-center justify-center w-[67px] h-[47px] rounded-md bg-button drop-shadow-lg">
+                <p class="text-base text-white font-serrat">
+                    <span id="minutes-number"></span>
+                </p>
+                <p class="text-base text-center text-white font-serrat">Menit</p>
+            </div>
+            <div id="seconds"
+                class="flex flex-col items-center justify-center w-[67px] h-[47px] rounded-md bg-button drop-shadow-lg">
+                <p class="text-base text-white font-serrat">
+                    <span id="seconds-number"></span>
+                </p>
+                <p class="text-base text-center text-white font-serrat">Detik</p>
+            </div>
+        </div>
+        <div class="text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <button
+                class="h-10 mt-12 text-base font-bold text-center text-white rounded-full w-52 bg-button font-serrat">Add
+                to
+                Calender</button>
+        </div>
+    </section>
+    <section>
+        <div class="h-[842px] bg-no-repeat bg-cover relative mt-12"
+            style="background-image: url(./assets/bg-gallery.png);" data-aos="zoom-in" data-aos-duration="3000">
+            <!-- Opasitas pada background -->
+            <div class="absolute inset-0 bg-white opacity-70"></div>
+            <div class="absolute inset-0 pt-12">
+                <h2 class="text-4xl tracking-widest text-center text-black font-monte">Wedding Gallery
+                </h2>
+            </div>
+            <div class="absolute flex w-full px-2 justify-evenly top-32">
+                <div class="flex flex-col justify-between">
+                    <img src="./assets/gallery1.png" alt="gallery" class="w-[108px] h-[144px]">
+                    <img src="./assets/gallery2.png" alt="gallery" class="w-[108px] h-[144px]">
+                </div>
+                <div>
+                    <img src="./assets/gallery3.png" alt="gallery" class="w-[172px] h-[300px]">
+                </div>
+            </div>
+            <div class="absolute flex w-full px-4 bottom-64">
+                <div class="flex w-full justify-evenly">
+                    <img src="./assets/gallery4.png" alt="gallery" class="w-[83px] h-[108px]">
+                    <img src="./assets/gallery6.png" alt="gallery" class="w-[83px] h-[108px]">
+                    <img src="./assets/gallery5.png" alt="gallery" class="w-[83px] h-[108px]">
+                </div>
+            </div>
+            <div class="absolute flex w-full px-4 bottom-24">
+                <div class="flex h-12 gap-8 ml-8">
+                    <h2 class="flex items-start text-base font-semibold font-pf text-emas">TOGETHER</h2>
+                    <h2 class="flex items-center text-base font-semibold font-pf text-emas">EVERYONE</h2>
+                </div>
+                <img src="./assets/gallery7.png" alt="gallery" class="w-[64px] h-[144px] ml-8">
+            </div>
+            <div class="absolute w-full px-4 ml-6 bottom-24">
+                <div class="flex items-center gap-4">
+                    <img src="./assets/gallery8.png" alt="gallery" class="w-[135px] h-[86px]">
+                    <img src="./assets/gallery9.png" alt="gallery" class="w-[64px] h-[81px]">
+                </div>
+            </div>
+            <div class="absolute flex justify-end w-full px-4 bottom-2">
+                <a href="index.html"><button class="w-20 h-12 text-white rounded-full bg-button">Back</button></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        var countDownDate = new Date("Sep 23, 2024 10:30:00").getTime();
+
+        var countdownInterval = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days-number").innerHTML = formatTime(days);
+            document.getElementById("hours-number").innerHTML = formatTime(hours);
+            document.getElementById("minutes-number").innerHTML = formatTime(minutes);
+            document.getElementById("seconds-number").innerHTML = formatTime(seconds);
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById("days-number").innerHTML = '00';
+                document.getElementById("hours-number").innerHTML = '00';
+                document.getElementById("minutes-number").innerHTML = '00';
+                document.getElementById("seconds-number").innerHTML = '00';
+            }
+        }, 1000);
+
+        // Fungsi untuk menambah "0" di depan angka jika kurang dari 10
+        function formatTime(time) {
+            return time < 10 ? '0' + time : time;
+        }
+    </script>
+</body>
+
+</html>
